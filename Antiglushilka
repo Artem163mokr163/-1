@@ -4,50 +4,7 @@
 "outbounds": [
 
 {
-  "tag": "⚡ Автовыбор | @slademie",
-  "type": "urltest",
-  "outbounds": [
-    "Обход 1",
-    "Обход 2",
-    "VPN 1",
-    "VPN 2",
-    "GRPC NL",
-    "Trojan PL"
-  ],
-  "url": "http://www.gstatic.com/generate_204",
-  "interval": "3m",
-  "tolerance": 50
-},
-
-{
-  "tag": "🚀 Обход глушилок | @slademie",
-  "type": "selector",
-  "outbounds": [
-    "Обход 1",
-    "Обход 2",
-    "Обход 3",
-    "Обход 4"
-  ]
-},
-
-{
-  "tag": "🌍 Автовыбор VPN | @slademie",
-  "type": "urltest",
-  "outbounds": [
-    "VPN 1",
-    "VPN 2",
-    "GRPC NL",
-    "Trojan PL"
-  ],
-  "url": "http://www.gstatic.com/generate_204",
-  "interval": "3m",
-  "tolerance": 50
-},
-
-
-
-{
-  "tag": "Обход 1",
+  "tag": "🌐 Обход 1 | @slademie",
   "type": "vless",
   "server": "ctl-1.harknmav.fun",
   "server_port": 443,
@@ -68,7 +25,7 @@
 },
 
 {
-  "tag": "Обход 2",
+  "tag": "🌐 Обход 2 | @slademie",
   "type": "vless",
   "server": "ctl-2.harknmav.fun",
   "server_port": 443,
@@ -89,7 +46,7 @@
 },
 
 {
-  "tag": "Обход 3",
+  "tag": "🌐 Обход 3 | @slademie",
   "type": "vless",
   "server": "ctl-3.harknmav.fun",
   "server_port": 443,
@@ -110,7 +67,7 @@
 },
 
 {
-  "tag": "Обход 4",
+  "tag": "🌐 Обход 4 | @slademie",
   "type": "vless",
   "server": "ctl-4.harknmav.fun",
   "server_port": 443,
@@ -130,10 +87,8 @@
   }
 },
 
-
-
 {
-  "tag": "VPN 1",
+  "tag": "🌍 UAE VPN | @slademie",
   "type": "vless",
   "server": "most-ae.harknmav.fun",
   "server_port": 443,
@@ -154,7 +109,7 @@
 },
 
 {
-  "tag": "VPN 2",
+  "tag": "🌍 Estonia VPN | @slademie",
   "type": "vless",
   "server": "most-ee.harknmav.fun",
   "server_port": 443,
@@ -171,39 +126,6 @@
   },
   "transport": {
     "type": "tcp"
-  }
-},
-
-{
-  "tag": "GRPC NL",
-  "type": "vless",
-  "server": "84.201.130.151",
-  "server_port": 443,
-  "uuid": "ae25bb41-dac8-48f0-89a9-f649459ad6ff",
-  "tls": {
-    "enabled": true,
-    "server_name": "max.ru",
-    "reality": {
-      "enabled": true,
-      "public_key": "gDxzyiv2JKbJVxgFqmurttOCVJgCD1SrRZqiPEZ_9CU",
-      "short_id": "104ddee73f941bc4"
-    }
-  },
-  "transport": {
-    "type": "grpc",
-    "service_name": "xraygrpc"
-  }
-},
-
-{
-  "tag": "Trojan PL",
-  "type": "trojan",
-  "server": "79.174.95.188",
-  "server_port": 7443,
-  "password": "t6_dKQnoWsZg3_W_49yaE4BAvFeYbrRa",
-  "tls": {
-    "enabled": true,
-    "server_name": "pltwo.rushtaxi.ru"
   }
 }
 
